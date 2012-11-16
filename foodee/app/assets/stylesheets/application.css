@@ -3,6 +3,14 @@
  *= require_reset
  */
 
+/*colors: 
+green — #d0c25b
+red/brown - #ba5d33
+blue - #78b9ab
+orange - #f08e47
+*/
+
+
 body {
   font-family: helvetica;
 }
@@ -24,13 +32,17 @@ h1 {
 
 
 header {
-  font-weight: bold;
   font size: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 30px;
   border-bottom: 1px solid black;
   padding-bottom:20px;
+
+}
+
+header a {
+  color: #d0c25b;
 }
 
 .button {
@@ -52,3 +64,20 @@ header {
 #names {
   margin-top: 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+
+
+
+
+
+
+
+
