@@ -1,5 +1,12 @@
-<h1><%= link_to "delete", dish_path(@dish), :method => :delete, :confirm => "Are you sure?" %></h1>
+<div class ="item">
 
-<h1><%= link_to @dish.name, edit_dish_path(@dish) %></h1>
-<p><%= @dish.cost %></p>
-<%= image_tag @dish.photo %>
+  <h1><%= link_to @dish.name, edit_dish_path(@dish) %></h1>
+  <div class ="cost">
+    <p><%= number_to_currency @dish.cost %></p>
+  </div>
+  <%= image_tag @dish.photo %>
+
+  <div class = "button"><%= link_to "delete", dish_path(@dish), :method => :delete, :confirm => "Are you sure?" %></div>
+  <div class = "clear"></div>
+
+</div>

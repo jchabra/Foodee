@@ -138,9 +138,40 @@ a:hover {
 
 
 
+img {
+  float:left;
+  margin-right: 20px;
+}
 
+.item {
+  border:1px solid #78b9ab;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+.item h1 {
+  border-bottom:1px solid #78b9ab;
+  padding-bottom: 20px;
+}
 
+.item h1 a {
+  color: #d0c25b;
+}
 
+.cost {
+  margin-bottom: 20px;
+  color: #f08e47;
+  font-size: 30px;
+}
+
+.main li {
+  border-bottom: 1px solid #78b9ab;
+  padding-bottom:10px;
+  padding-top: 10px;
+}
+
+.main li a {
+  color: #78b9ab;
+}
 
 
