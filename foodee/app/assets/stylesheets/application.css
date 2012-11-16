@@ -67,8 +67,11 @@ header a {
 }
 
 .heroes {
-  font-family: font-family: 'Tangerine', cursive;
-
+  margin-left:  20px;
+  font-family: proxima-nova;
+  font-size: 18px;
+  font-weight: bold;
+  color: #78b9ab;
 }
 
 #names {
