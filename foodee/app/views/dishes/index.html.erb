@@ -1,11 +1,11 @@
 <h1>Dishes</h1>
 
 <div class="control">
-  <%= link_to 'Add A Dish', new_dish %>
+  <%= link_to 'Add A Dish', new_dish_path %>
 </div>
 
 <ul>
   <% @dishes.each do |dish| %>
-    <li><%= link_to dish.name, dish %></li>
+    <li><%= link_to dish.name, dish_path %></li>
   <% end %>
 </ul>
