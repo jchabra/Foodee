@@ -39,7 +39,8 @@ header {
   margin-bottom: 30px;
   border-bottom: 1px solid #78b9ab;
   padding-bottom:20px;
-
+  color: #ccc;
+  font-weight: bold;
 }
 
 header a {
@@ -78,6 +79,9 @@ a:hover {
   color:white;
 }
 
+.control {
+  border-bottom: 1px solid #f08e47 ;
+}
 
 
 
