@@ -10,6 +10,6 @@
 
 class Dish < ActiveRecord::Base
   validates :name, :presence => true
-  # validates :cost, :numericality => { :greater_than => 10 }
-  # validates :photo, :presence => true
+  validates :cost, :numericality => { :greater_than => 10 }
+  validates :photo, :presence => true
 end
