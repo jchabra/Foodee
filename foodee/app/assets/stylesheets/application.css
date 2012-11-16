@@ -66,6 +66,14 @@ header a {
   clear:both;
 }
 
+.heroes {
+  margin-left:  20px;
+  font-family: proxima-nova;
+  font-size: 18px;
+  font-weight: bold;
+  color: #78b9ab;
+}
+
 #names {
   margin-top: 20px;
 }
