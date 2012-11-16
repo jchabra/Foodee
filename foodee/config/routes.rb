@@ -1,6 +1,6 @@
 Foodee::Application.routes.draw do
 
-  resources :restaurants
+  resources :restaurants, :dishes
   
 
   # The priority is based upon order of creation:
