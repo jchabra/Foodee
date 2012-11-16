@@ -3,5 +3,6 @@ development:
   encoding: unicode
   database: foodee_development
   pool: 5
-  username: postgres
-  password: password
+  host: localhost
+  username: larrybuch
+  password:
