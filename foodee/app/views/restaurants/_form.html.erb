@@ -5,6 +5,7 @@
 </ul>
 
 <%= form_for @restaurant do |f| %>
+<div class="forms">
 	<div class='field'>
 		<%= f.label :name %>
 		<%= f.text_field :name %>
@@ -20,4 +21,5 @@
 	<div class='field'>
 		<%= f.submit %>
 	</div>
+</div>
 <% end %>
