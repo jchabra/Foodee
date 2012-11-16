@@ -8,6 +8,7 @@ class DishController < ApplicationController
   def edit
   end
   def create
+    @dish = Dish.new
   end
   def update
   end
