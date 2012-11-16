@@ -56,10 +56,12 @@ header a {
   float:left;
   margin-right:20px;
   display: block;
+  border-bottom: 6px solid #cd793c;
 }
 
 .button:hover {
   background: #78b9ab;
+  border-bottom: 6px solid #679d91;
 }
 
 .clear {
