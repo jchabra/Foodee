@@ -44,3 +44,11 @@ header {
 .button:hover {
   background: red;
 }
+
+.clear {
+  clear:both;
+}
+
+#names {
+  margin-top: 20px;
+}
