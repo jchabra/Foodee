@@ -3,7 +3,7 @@
  *= require_reset
  */
 
-/*colors: 
+/*colors:
 green — #d0c25b
 red/brown - #ba5d33
 blue - #78b9ab
@@ -94,6 +94,50 @@ a:hover {
   border-bottom: 1px solid #f08e47 ;
 }
 
+.social ul li {
+  float: left;
+}
+
+  .social ul li a {
+    display: block; /*IMPORTANT STEP 3 : DISPLAY BLOCK*/
+    width: 70px;
+    height: 25px;
+    margin: 5px;
+
+    /*Scott kellum image replacement*/
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    background: url('assets/sprite.gif');
+  }
+
+.social ul li.facebook a {
+    background-position: 10px 10px;
+  }
+
+    .social ul li.facebook a:hover {
+    background-position: 10px 50px;
+  }
+
+.social ul li.twitter a {
+    background-position: 100px 10px;
+  }
+
+    .social ul li.twitter a:hover {
+    background-position: 100px 50px;
+  }
+
+.social ul li.github a {
+    background-position: 190px 10px;
+  }
+
+    .social ul li.github a:hover {
+    background-position: 190px 50px;
+  }
+
+
+
 img {
   float:left;
   margin-right: 20px;
@@ -120,13 +164,13 @@ img {
   font-size: 30px;
 }
 
-li {
+.main li {
   border-bottom: 1px solid #78b9ab;
   padding-bottom:10px;
   padding-top: 10px;
 }
 
-li a {
+.main li a {
   color: #78b9ab;
 }
 
