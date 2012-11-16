@@ -94,6 +94,15 @@ a:hover {
   border-bottom: 1px solid #f08e47 ;
 }
 
+.forms {
+  width: 500px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #78b9ab;
+  border-radius:  20px;
+}
+.field {
+ margin-left: 50px; 
+}
 
 
 
