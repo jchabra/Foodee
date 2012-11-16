@@ -9,5 +9,7 @@
 #
 
 class Dish < ActiveRecord::Base
-  belongs_to :restaurant
+  validates :name, :presence => true
+  validates :cost, :numericality => { :greater_than => 10 }
+  validates :photo, :presence => true
 end
