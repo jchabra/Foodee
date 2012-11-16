@@ -5,9 +5,12 @@
 </div>
 
 <div class ="clear"></div>
+<br />
 
-<ul>
-  <% @dishes.each do |dish| %>
-    <li><%= link_to dish.name, dish %></li>
-  <% end %>
-</ul>
+<div class = "list">
+  <ul>
+    <% @dishes.each do |dish| %>
+      <li><%= link_to dish.name, dish %></li>
+    <% end %>
+  </ul>
+</div>

@@ -5,12 +5,15 @@
 </div>
 
 <div class ="clear"></div>
+<br />
 
-<ul>
-<% @restaurants.each do |restaurant| %>
-	<li>
-		<p><%= link_to restaurant.name, restaurant %></p>
-	</li>
+<div class = "list">
+  <ul>
+  <% @restaurants.each do |restaurant| %>
+  	<li>
+  		<p><%= link_to restaurant.name, restaurant %></p>
+  	</li>
 
-<% end %>
-</ul>
+  <% end %>
+  </ul>
+</div>
