@@ -9,5 +9,7 @@
 #
 
 class Restaurant < ActiveRecord::Base
-  has_many :dishes
+  validates :name, :length => { :minimum => 4 }
+  validates :cuisine, :presence => true
+  validates :addres, :presence => true
 end
