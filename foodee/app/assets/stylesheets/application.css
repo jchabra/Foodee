@@ -3,6 +3,14 @@
  *= require_reset
  */
 
+/*colors: 
+green — #d0c25b
+red/brown - #ba5d33
+blue - #78b9ab
+orange - #f08e47
+*/
+
+
 body {
   font-family: helvetica;
 }
@@ -16,33 +24,38 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 70px;
   font-weight: bold;
-  letter-spacing: -1px;
-  margin-bottom: 20px;
+  letter-spacing: -3px;
+  margin-bottom: 40px;
+  color: #f08e47;
 }
 
 
 header {
-  font-weight: bold;
   font size: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 30px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #78b9ab;
   padding-bottom:20px;
+
+}
+
+header a {
+  color: #d0c25b;
 }
 
 .button {
   padding:20px;
-  background: #ccc;
+  background: #f08e47;
   float:left;
   margin-right:20px;
   display: block;
 }
 
 .button:hover {
-  background: red;
+  background: #78b9ab;
 }
 
 .clear {
@@ -52,3 +65,24 @@ header {
 #names {
   margin-top: 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+.button a {
+  color:white;
+}
+
+
+
+
+
+
+
+
+

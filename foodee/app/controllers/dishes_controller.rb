@@ -6,6 +6,7 @@ class DishesController < ApplicationController
   def show
     dish_id = params[:id]
     @dish = Dish.find(dish_id)
+
   end
   def new
     @dish = Dish.new
