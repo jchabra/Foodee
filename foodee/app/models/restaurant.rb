@@ -11,5 +11,5 @@
 class Restaurant < ActiveRecord::Base
   validates :name, :length => { :minimum => 4 }
   validates :cuisine, :presence => true
-  validates :addres, :presence => true
+  validates :address, :presence => true
 end
