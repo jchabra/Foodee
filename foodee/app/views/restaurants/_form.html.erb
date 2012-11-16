@@ -1,8 +1,4 @@
-<ul class='errors'>
-	<% @restaurant.errors.full_messages.each do |error| %>
-	<li><%= error %></li>
-	<% end %>
-</ul>
+<%= render :partial => 'shared/errors', :locals => {:object => @dish} %>
 
 <%= form_for @restaurant do |f| %>
 <div class="forms">
@@ -17,6 +13,13 @@
 	<div class='field'>
 		<%= f.label :address %>
 		<%= f.text_field :address %>
+	</div>
+	<div class='field'>
+		<% Dish.all.each do |dish| %>
+			<%= check_box_tag 'restaurant[dish_ids][]', dish.id, @restaurant.dishes.include?(dish) %>
+			<!-- each check box has its own id -->
+			<span><%= dish.name %></span>
+		<% end %>
 	</div>
 	<div class='field'>
 		<%= f.submit %>
