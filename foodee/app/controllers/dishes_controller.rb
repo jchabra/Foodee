@@ -7,6 +7,7 @@ class DishesController < ApplicationController
     @dish = Dish.find(dish_id)
   end
   def new
+    @dish = Dish.new
   end
   def edit
   end
