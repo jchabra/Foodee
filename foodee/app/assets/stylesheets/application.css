@@ -113,27 +113,27 @@ a:hover {
 }
 
 .social ul li.facebook a {
-    background-position: 10px -10px;
+  background-position: -10px -10px;
 }
 
   .social ul li.facebook a:hover {
-  background-position: 10px -50px;
+  background-position: -10px -50px;
 }
 
 .social ul li.twitter a {
-    background-position: 100px -10px;
+    background-position: -100px -10px;
 }
 
   .social ul li.twitter a:hover {
-  background-position: 100px -50px;
+  background-position: -100px -50px;
 }
 
 .social ul li.github a {
-    background-position: 190px -10px;
+    background-position: -190px -10px;
 }
 
 .social ul li.github a:hover {
-background-position: 190px -50px;
+background-position: -190px -50px;
 }
 
 img {
@@ -170,6 +170,16 @@ img {
 
 .list li a {
   color: #78b9ab;
+}
+
+.cuisine, .address {
+  color: #78b9ab;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.social {
+  float: right;
 }
 
 

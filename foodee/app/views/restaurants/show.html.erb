@@ -1,8 +1,8 @@
 <div class ="item">
 
   <h1><%= link_to @restaurant.name, edit_restaurant_path(@restaurant) %></h1>
-  <div class="cuisine"><%= @restaurant.cuisine %></div>
-  <div class="address"><%= @restaurant.address %></div>
+  <div class="cuisine"><%= @restaurant.cuisine %> :: 
+  <%= @restaurant.address %></div>
 
 <div class = "button"><%= link_to "delete", restaurant_path(@restaurant), :method => :delete, :confirm => "Are you sure?" %>
 </div>
